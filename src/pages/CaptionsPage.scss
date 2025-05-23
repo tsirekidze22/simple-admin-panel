@@ -1,0 +1,45 @@
+.captions-page {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding-top: 40px;
+
+  h2 {
+    font-weight: 600;
+    color: #343a40;
+  }
+
+  .form-control {
+    border-radius: 0.375rem;
+    box-shadow: none;
+    &:focus {
+      border-color: #0d6efd;
+      box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+    }
+  }
+
+  .btn-primary {
+    font-weight: 500;
+    letter-spacing: 0.3px;
+  }
+
+  table {
+    background-color: white;
+    border-radius: 0.375rem;
+    overflow: hidden;
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.05);
+    th {
+      background-color: #e9ecef;
+    }
+  }
+
+  .modal {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-dialog {
+    margin-top: 10vh;
+    .modal-content {
+      border-radius: 0.5rem;
+    }
+  }
+}
