@@ -70,7 +70,7 @@ function CaptionsPage() {
 
   return (
     <div className="container mt-5 captions-page">
-      <div className="d-flex justify-content-between align-items-center mb-4">
+      <div className="d-flex flex-column flex-md-row justify-content-between align-items-center mb-4">
         <h2>Captions</h2>
         <div>
           <span className="me-3">

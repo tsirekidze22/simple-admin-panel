@@ -13,8 +13,8 @@ function Layout({ children }) {
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light px-4">
-        <span className="navbar-brand">Admin Panel</span>
-        <div className="ms-auto d-flex align-items-center gap-3">
+        <span className="navbar-brand mx-auto">Admin Panel</span>
+        <div className="mt-4 mt-md-0 mx-auto ms-md-auto d-flex align-items-center gap-3">
           <Link to="/captions" className="btn btn-outline-primary btn-sm">
             Captions
           </Link>
@@ -22,7 +22,7 @@ function Layout({ children }) {
             Countries
           </Link>
           {user && <span className="me-2 fw-bold">{user.name}</span>}
-          <button className="btn btn-danger btn-sm" onClick={logout}>
+          <button className="btn btn-primary btn-sm" onClick={logout}>
             Logout
           </button>
         </div>
